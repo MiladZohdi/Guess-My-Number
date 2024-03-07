@@ -36,6 +36,8 @@ checkbtn.addEventListener('click', function () {
       message('sorry you lost!');
       scoreEl.textContent = 0;
       checkbtn.disabled = true;
+      document.querySelector('body').style.backgroundColor = '#3c0000';
+      numberEl.textContent = number;
     }
   }
 });
